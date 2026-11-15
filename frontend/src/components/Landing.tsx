@@ -128,6 +128,7 @@ export default function Landing() {
           <div className="ctas">
             <a className="lbtn primary" href="#/app">Open the planner</a>
             <a className="lbtn" href="#/docs/USER_GUIDE">Read the user guide</a>
+            <a className="lbtn" href="/COMPASS_Charlies_Angels.pdf" target="_blank" rel="noopener">View the slides (PDF)</a>
           </div>
           <p className="fine">A prototype for the NASA Space Apps Challenge. Scores are estimates from orbital data, not engineering ratings.</p>
         </div>

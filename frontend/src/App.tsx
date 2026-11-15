@@ -123,7 +123,7 @@ export default function App() {
     if (s0.elev < 0) a.push({ level: "warn", text: `Planned start (${fmtSol(trip.earliest)}) is in darkness. Sunrise is about ${fmtHM(s0.sunrise)} LTST.` });
     const target = confirmed ?? sel;
     if (target) {
-      if (!target.ok) a.push({ level: "bad", text: `Route ${target.id} is below ${MIN_SAFETY}%: ${target.reasons.join("; ")}.` });
+      if (!target.ok) a.push({ level: "bad", text: `Route ${target.id} does not qualify (needs an estimated safety of ${MIN_SAFETY}): ${target.reasons.join("; ")}.` });
       const end = target.back ?? target.arrive;
       if (end && sunAt(solTimeToMs(end)).elev < 0) a.push({ level: "warn", text: `Route ${target.id} finishes after dark (${fmtSol(end)}).` });
       if (target.shortOn.length) a.push({ level: "warn", text: `Short on ${target.shortOn.join(", ")} for route ${target.id}.` });

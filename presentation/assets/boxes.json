@@ -1,0 +1,108 @@
+{
+ "planner": {
+  "topbar": {
+   "x": 6,
+   "y": 6,
+   "width": 1428,
+   "height": 38
+  },
+  "left": {
+   "x": 6,
+   "y": 50,
+   "width": 224,
+   "height": 739
+  },
+  "map": {
+   "x": 236,
+   "y": 50,
+   "width": 892,
+   "height": 739
+  },
+  "right": {
+   "x": 1134,
+   "y": 50,
+   "width": 300,
+   "height": 739
+  },
+  "card": {
+   "x": 1145,
+   "y": 128,
+   "width": 278,
+   "height": 128
+  },
+  "supplies": {
+   "x": 7,
+   "y": 418,
+   "width": 222,
+   "height": 178
+  },
+  "form": {
+   "x": 6,
+   "y": 795,
+   "width": 1428,
+   "height": 99
+  },
+  "confirm": {
+   "x": 1145,
+   "y": 748,
+   "width": 218,
+   "height": 30
+  },
+  "dest": {
+   "x": 409,
+   "y": 299,
+   "width": 108,
+   "height": 36
+  },
+  "start": {
+   "x": 932,
+   "y": 465,
+   "width": 75,
+   "height": 36
+  },
+  "legend": {
+   "x": 578,
+   "y": 699,
+   "width": 541,
+   "height": 39
+  },
+  "alert": {
+   "x": 869,
+   "y": 59,
+   "width": 250,
+   "height": 74
+  },
+  "cards": [
+   {
+    "x": 1145,
+    "y": 128,
+    "width": 278,
+    "height": 128
+   },
+   {
+    "x": 1145,
+    "y": 262,
+    "width": 278,
+    "height": 128
+   },
+   {
+    "x": 1145,
+    "y": 397,
+    "width": 278,
+    "height": 128
+   }
+  ]
+ },
+ "viewport": {
+  "w": 1440,
+  "h": 900
+ },
+ "explain": {
+  "panel": {
+   "x": 1134,
+   "y": 50,
+   "width": 300,
+   "height": 739
+  }
+ }
+}
