@@ -129,7 +129,7 @@ def slide1(prs):
     tb(s, 2.45, 4.75, 10.2, 0.4, "Combined Orbital Mars Pathfinding & Astronaut Safety System", 18, 14, color="D6DEF5", anchor="m")
     tb(s, 2.45, 5.2, 10.2, 0.4, "Charlie's Angels", 20, 16, italic=True, color="E0B957", anchor="m")
     tb(s, 0.55, 6.75, 12, 0.3, "NASA International Space Apps Challenge 2026  |  Jezero Crater, Mars  |  compass-77kb.onrender.com", 12, 10, color="C9D3EE")
-    tb(s, 0.55, 7.1, 12, 0.22, "Image: NASA/JPL-Caltech artist's concept of a spacecraft approaching Mars.", 8.5, 7, color="9FB0D8")
+    tb(s, 0.55, 7.1, 12.2, 0.22, "Image: NASA/JPL-Caltech artist's concept. Logo, illustrations, code and text created with AI assistance (SI-generated: Claude, Anthropic).", 9, 7, color="C9D3EE")
 
 def slide2(prs):
     s = frame(prs, "COMPASS tells explorers on foot where it is safe to walk, when to leave and how to get back", "Executive Summary", 0,

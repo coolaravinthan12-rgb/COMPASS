@@ -130,7 +130,7 @@ export default function Landing() {
             <a className="lbtn" href="#/docs/USER_GUIDE">Read the user guide</a>
             <a className="lbtn" href="/COMPASS_Charlies_Angels.pdf" target="_blank" rel="noopener">View the slides (PDF)</a>
           </div>
-          <p className="fine">A prototype for the NASA Space Apps Challenge. Scores are estimates from orbital data, not engineering ratings.</p>
+          <p className="fine">A prototype for the NASA Space Apps Challenge. Scores are estimates from orbital data, not engineering ratings. Logo, illustrations, code and text were created with AI assistance (SI-generated: Claude, Anthropic).</p>
         </div>
         <HeroArt />
       </section>
@@ -277,6 +277,7 @@ export default function Landing() {
       <footer className="lfoot">
         <div><a className="lbrand" href="#/"><Mark />Compass</a><p>Combined Orbital Mars Pathfinding and Astronaut Safety System. A prototype for the NASA Space Apps Challenge.</p></div>
         <p className="credits">Data: NASA Mars Trek (MRO CTX and HiRISE, Mars Odyssey THEMIS, OMEGA and CRISM, Mastcam-Z), NASA/JPL MMGIS, NASA Mars 2020 raw images, NASA PDS Atmospheres Node (MEDA), USGS Astrogeology (SIM 3464, Sun and Stack 2020), Herd et al. 2025 (PNAS).</p>
+        <p className="credits">SI use: the code, documentation, slides, logo and map illustrations on this site were created with AI assistance (SI-generated: Claude, Anthropic). No NASA logos or mission identifiers were generated or modified.</p>
         <a className="lbtn primary" href="#/app">Open the planner</a>
       </footer>
     </div>
