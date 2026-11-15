@@ -1,0 +1,197 @@
+{
+  "Layers": {
+    "Layer": [
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "DEM_1m_ColumbiaHills",
+        "title": "Columbia Hills DEM 1m",
+        "mission": "",
+        "instrument": "",
+        "productType": "DEM",
+        "layerProjection": "IAU2000:49900",
+        "thumbnailImage": "jpl/assets/images/layers/vesta/hillshade.png",
+        "bounding": {
+          "leftbc": "175.44186271021636",
+          "rightbc": "175.55482886093245",
+          "topbc": "-14.492559624446356",
+          "bottombc": "-14.677517184720667"
+        },
+        "legend": "",
+        "description": "",
+        "resolution": "1",
+        "services": [
+            {
+                "serviceType": "raster",
+                "protocol": "arcgis",
+                "mode": "ArcGISImageServiceLayer",
+                "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/DEM_1m_ColumbiaHills/ImageServer"
+             }
+        ]
+      },
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "DEM_1m_VictoriaCrater",
+        "title": "Victoria Crater DEM 1m",
+        "mission": "",
+        "instrument": "",
+        "productType": "DEM",
+        "layerProjection": "IAU2000:49900",
+        "thumbnailImage": "jpl/assets/images/layers/vesta/hillshade.png",
+        "bounding": {
+          "leftbc": "-5.510914956819385",
+          "rightbc": "-5.489103956819386",
+          "topbc": "-2.039199476941222",
+          "bottombc": "-2.068116476941222"
+        },
+        "legend": "",
+        "description": "",
+        "resolution": "1",
+        "services": [
+            {
+                "serviceType": "raster",
+                "protocol": "arcgis",
+                "mode": "ArcGISImageServiceLayer",
+                "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/DEM_1m_VictoriaCrater/ImageServer"
+             }
+        ]
+      },
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "Gale_DEM_SMG_1m",
+        "title": "Gale Crater DEM 1m",
+        "mission": "",
+        "instrument": "",
+        "productType": "DEM",
+        "layerProjection": "IAU2000:49900",
+        "thumbnailImage": "jpl/assets/images/layers/vesta/hillshade.png",
+        "bounding": {
+          "leftbc": "137.12247113204074",
+          "rightbc": "137.72981290693286",
+          "topbc": "-4.248963057145466",
+          "bottombc": "-4.925474311955841"
+        },
+        "legend": "",
+        "description": "",
+        "resolution": "1",
+        "services": [
+            {
+                "serviceType": "raster",
+                "protocol": "arcgis",
+                "mode": "ArcGISImageServiceLayer",                
+                "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/Gale_DEM_SMG_1m/ImageServer"
+             }
+        ]
+      },
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "STEREO_DEM_1_m_Phoenix_Box_B81",
+        "title": "Phoenix DEM 1m",
+        "mission": "",
+        "instrument": "",
+        "productType": "DEM",
+        "layerProjection": "IAU2000:49900",
+        "thumbnailImage": "jpl/assets/images/layers/vesta/hillshade.png",
+        "bounding": {
+          "leftbc": "129.98433992153628",
+          "rightbc": "130.74413962078197",
+          "topbc": "67.63801705429151",
+          "bottombc": "129.98433992153628"
+        },
+        "legend": "",
+        "description": "",
+        "resolution": "1",
+        "services": [
+            {
+                "serviceType": "raster",
+                "protocol": "arcgis",
+                "mode": "ArcGISImageServiceLayer",
+                "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/STEREO_DEM_1_m_Phoenix_Box_B81/ImageServer"
+             }
+        ]
+      },
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "Gale_HRSC_DEMi_25m ",
+        "title": "Gale Crater HRSC DEM 25m",
+        "mission": "",
+        "instrument": "",
+        "productType": "DEM",
+        "layerProjection": "IAU2000:49900",
+        "thumbnailImage": "jpl/assets/images/layers/vesta/hillshade.png",
+        "bounding": {
+          "leftbc": "135.98023839481968",
+          "rightbc": "139.485950084336",
+          "topbc": "-3.2103917514750204",
+          "bottombc": "-7.849808087456689"
+        },
+        "legend": "",
+        "description": "",
+        "resolution": "25",
+        "services": [
+            {
+                "serviceType": "raster",
+                "protocol": "arcgis",
+                "mode": "ArcGISImageServiceLayer",
+                "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/Gale_HRSC_DEMi_25m/ImageServer"
+             }
+        ]
+      },
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "MC11E11_HRDTMAR_DA5",
+        "title": "HRSC MC11",
+        "mission": "",
+        "instrument": "",
+        "productType": "DEM",
+        "layerProjection": "IAU2000:49900",
+        "thumbnailImage": "jpl/assets/images/layers/vesta/hillshade.png",
+        "bounding": {
+          "leftbc": "-22.5007410",
+          "rightbc": "0.000000",
+          "topbc": "30.000000",
+          "bottombc": "0.000000"
+        },
+        "legend": "",
+        "description": "",
+        "resolution": "50",
+        "services": [
+            {
+                "serviceType": "raster",
+                "protocol": "arcgis",
+                "mode": "ArcGISImageServiceLayer",
+                "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/MC11E11_HRDTMAR_DA5/ImageServer"
+             }
+        ]
+      },
+      {
+        "UUID": "9a05d86b-ffa4-4d5d-be54-9a8e90b27bce",
+        "productLabel": "mola128_mola64_merge_90Nto90S_SimpleC_clon0",
+        "title": "MOLA DEM",
+        "mission": "",
+        "instrument": "",
+        "productType": "DEM",
+        "layerProjection": "IAU2000:49900",
+        "thumbnailImage": "jpl/assets/images/layers/vesta/hillshade.png",
+        "bounding": {
+          "leftbc": "-180.000000",
+          "rightbc": "180.000000",
+          "topbc": "90.000000",
+          "bottombc": "-90.000000"
+        },
+        "legend": "",
+        "description": "",
+        "resolution": "463",
+        "services": [
+            {
+                "serviceType": "raster",
+                "protocol": "arcgis",
+                "mode": "ArcGISImageServiceLayer",
+                "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/mola128_mola64_merge_90Nto90S_SimpleC_clon0/ImageServer"
+             }
+        ]
+      }
+
+
+    ]
+  }
+}

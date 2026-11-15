@@ -1,0 +1,25 @@
+sample_no,sol,name,location,rock_type,notes,lon,lat,waypoint_sol
+2,164,Roubion,"Séítah ""Thumb""",Atmosphere,Polygonal low-lying outcrop within Máaz formation,77.45165,18.42769,157
+3,190,Montdenier,"Rochette target, Artuby Ridge",Igneous,Float associated with ridge,77.44437,18.43074,180
+4,196,Montagnac,"Rochette target, Artuby Ridge",Igneous,Float associated with ridge,77.44437,18.43074,180
+5,262,Salette,Brac outcrop within Séítah South,Igneous,"Outcrop. Low-lying, layered",77.44302,18.43396,248
+6,271,Coulettes,Brac outcrop within Séítah South,Igneous,"Outcrop. Low-lying, layered",77.44302,18.43396,248
+7,298,Robine,Issole outcrop within Séítah South,Igneous,"Outcrop. Ridge, layered, resistant",77.44137,18.43266,286
+8,337,Malay,Issole outcrop within Séítah South,Igneous,"Outcrop. Ridge, layered, resistant",77.44131,18.43261,335
+9,371,Hahonih,Sid target,Igneous,"Float associated with massive, blocky rocks",77.45243,18.4439,362
+10,377,Atsah,Sid target,Igneous,"Float associated with massive, blocky rocks",77.45243,18.4439,362
+11,490,Swift Run,"Skinner Ridge outcrop, Hawksbill Gap",Sedimentary,"Outcrop. Horizontally-layered, medium-grained, resistant",77.40617,18.4589,477
+12,495,Skyland,"Skinner Ridge outcrop, Hawksbill Gap",Sedimentary,"Outcrop. Horizontally-layered, medium-grained, resistant",77.40617,18.4589,477
+14,509,Hazeltop,"Wildcat Ridge outcrop, Hawksbill Gap",Sedimentary,"Outcrop. Horizontally-layered, fine-grained, recessive",77.40592,18.45865,502
+15,516,Bearwallow,"Wildcat Ridge outcrop, Hawksbill Gap",Sedimentary,"Outcrop. Horizontally-layered, fine-grained, recessive",77.40592,18.45865,502
+16,575,Shuyak,"Amalik outcrop, Cape Nukshak",Sedimentary,"Outcrop. Horizontally-layered, fine-grained, recessive",77.40144,18.45073,565
+17,579,Mageik,"Amalik outcrop, Cape Nukshak",Sedimentary,"Outcrop. Horizontally-layered, fine-grained, recessive",77.40144,18.45073,565
+19,623,Kukaklek,"Hidden Harbor outcrop, Cape Nukshak",Sedimentary,"Outcrop. Horizontally-layered, fine-grained, recessive",77.39915,18.45364,609
+20,634,Atmo Mountain,"Observation Mountain, Cape Nukshak",Regolith,Megaripple,77.40144,18.45162,632
+21,639,Crosswind Lake,"Observation Mountain, Cape Nukshak",Regolith,Megaripple,77.40144,18.45162,632
+22,749,Melyn,Berea outcrop,Sedimentary,Outcrop. Alternating dm-scale resistant sandstone and recessive coarser-grained layers,77.38407,18.4702,736
+23,822,Otis Peak,Onahu outcrop,Sedimentary,"Outcrop. Cross-stratified conglomerate, resistant",77.36828,18.48301,821
+24,882,Pilot Mountain,Dream Lake outcrop,Sedimentary,"Outcrop. Low-lying, medium-grained, recessive",77.36051,18.48381,872
+25,923,Pelican Point,Hans Amundsen M.W. within Mandu Wall,Sedimentary,"Outcrop. Minimally-layered, low-lying, medium- to coarse-granular, recessive",77.35078,18.48344,911
+26,949,Lefroy Bay,Turquoise Bay within Mandu Wall,Sedimentary,"Outcrop. Minimally-layered, low-lying, medium- to coarse-granular, recessive",77.34704,18.48871,933
+27,1088,Comet Geyser,Bunsen Peak,Sedimentary,"Probable outcrop. Resistant, massive",77.3272,18.49183,1084

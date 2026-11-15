@@ -1,0 +1,198 @@
+{
+  "Layers": [
+    {
+      "UUID": "",
+      "productLabel": "nomenclature_eq",
+      "title": "Nomenclature",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "FeatureLabel",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/combinedNom/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "graticule_eq",
+      "title": "Graticule",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:EPSG::104905",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -180,
+        "rightbc": 180,
+        "topbc": 90,
+        "bottombc": -90
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "mode": "rest",
+          "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/ERGraticule/MapServer",
+          "imageFormat": "png32",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+
+
+    {
+      "UUID": "",
+      "productLabel": "nomenclature_np",
+      "title": "Nomenclature",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "FeatureLabel",
+      "layerProjection": "urn:ogc:def:crs:IAU2000::49918",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -1821000,
+        "rightbc": 1821000,
+        "topbc": 1821000,
+        "bottombc": -1821000
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/combinedNom_np/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }, {
+      "UUID": "",
+      "productLabel": "graticule_np",
+      "title": "Graticule",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:IAU2000::49918",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -1821000,
+        "rightbc": 1821000,
+        "topbc": 1821000,
+        "bottombc": -1821000
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "mode": "rest",
+          "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/NPolarGraticule/MapServer",
+          "imageFormat": "png32",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+
+
+    {
+      "UUID": "",
+      "productLabel": "nomenclature_sp",
+      "title": "Nomenclature",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "FeatureLabel",
+      "layerProjection": "urn:ogc:def:crs:IAU2000::49920",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -1821000,
+        "rightbc": 1821000,
+        "topbc": 1821000,
+        "bottombc": -1821000
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "jpl/assets/layers/nomenclature.html",
+      "services": [
+        {
+          "serviceType": "Feature",
+          "protocol": "ArcGISFeature",
+          "mode": "rest",
+          "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/combinedNom_sp/MapServer/0",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    },
+    {
+      "UUID": "",
+      "productLabel": "graticule_sp",
+      "title": "Graticule",
+      "subtitle": "",
+      "mission": "",
+      "instrument": "",
+      "productType": "featureLayer",
+      "layerProjection": "urn:ogc:def:crs:IAU2000::49920",
+      "thumbnailImage": "",
+      "bounding": {
+        "leftbc": -1821000,
+        "rightbc": 1821000,
+        "topbc": 1821000,
+        "bottombc": -1821000
+      },
+      "legend": "",
+      "colorbar": "",
+      "description": "",
+      "services": [
+        {
+          "serviceType": "Mosaic",
+          "protocol": "ArcGISDynamic",
+          "mode": "rest",
+          "endPoint": "https://trek.nasa.gov/mars/trekarcgis/rest/services/SPolarGraticule/MapServer",
+          "imageFormat": "png32",
+          "layerId": "",
+          "tileMatrixSet": "",
+          "format": ""
+        }
+      ]
+    }
+
+
+  ]
+}

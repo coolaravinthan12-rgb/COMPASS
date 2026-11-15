@@ -1,0 +1,10 @@
+services:
+  compass:
+    build: .
+    ports:
+      - "7860:7860"
+    environment:
+      DATA_DIR: /app/data
+      PUBLIC_DATA_URL: /data
+    volumes:
+      - ./data:/app/data        # demo data, trained models and uploads; persists between runs

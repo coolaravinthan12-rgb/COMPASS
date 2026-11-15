@@ -1,0 +1,10 @@
+node_modules
+dist
+__pycache__
+*.pyc
+pipeline/cache/
+data/models/
+data/uploads/
+data/_*.log
+data/demo/_herd2025.xml
+.env

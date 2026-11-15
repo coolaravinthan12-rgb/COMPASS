@@ -1,0 +1,35 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":0,
+    "params":{
+      "q":"productLabel:Perseverance_Traverse_Path",
+      "indent":"on",
+      "sort":"sortPriority desc,itemType desc, resolution asc,title asc",
+      "version":"2.2",
+      "wt":"json"}},
+  "response":{"numFound":1,"start":0,"docs":[
+      {
+        "item_DBID":"295981",
+        "item_UUID":"c41b14e6-7315-4c13-8a60-12dfea570764",
+        "productLabel":"Perseverance_Traverse_Path",
+        "title":"Perseverance (Mars 2020) Path",
+        "fileSize":[283131],
+        "productCat1":"Feature",
+        "productCat2":"Traverse Path",
+        "mission":"Mars 2020",
+        "trekProjection":"urn:ogc:def:crs:EPSG::104905",
+        "projection":"GEOGCS[\"GCS_Mars_2000\",DATUM[\"D_Mars_2000\",SPHEROID[\"Mars_2000_IAU_IAG\",3396190.0,169.8944472236118]],PRIMEM[\"Reference_Meridian\",0.0],UNIT[\"Degree\",0.0174532925199433]]\n",
+        "data_created_date":"2024-07-03T03:26:45Z",
+        "description":"Perseverance, also known as NASA’s Mars 2020 Rover, has launched on July 30, 2020 and will land on Mars on February 18, 2021. The targeted landing site is Jezero Crater, which was a large crater lake in Mars’ distant past. Perseverance will explore the floor of Jezero, studying sedimentary deposits that accumulated on the crater floor when water once flowed across the surface of Mars. It will look for clues about Mars’ ancient environment, its possible past habitability, potential biomarkers preserved in sedimentary deposits, and changing geological processes over time.",
+        "itemType":"product",
+        "resolution":0.0,
+        "isContainer":false,
+        "searchable":true,
+        "coverage":"Regional",
+        "serviceTypes":["Feature",
+          "Mosaic"],
+        "shape":"POLYGON((77.303808 18.499663,77.303808 18.427253,77.463133 18.427253,77.463133 18.499663,77.303808 18.499663))",
+        "bbox":"77.303808,18.427253,77.463133,18.499663",
+        "_version_":1803526818337128448}]
+  }}

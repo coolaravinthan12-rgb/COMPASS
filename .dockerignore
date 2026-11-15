@@ -1,0 +1,12 @@
+**/node_modules
+frontend/dist
+data/full/
+data/models/
+data/uploads/
+data/_server.log
+pipeline/cache/
+pipeline/.venv/
+.git
+.github
+__pycache__
+.env

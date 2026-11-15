@@ -1,0 +1,7 @@
+{
+ "layers_total": 1346,
+ "mars_or_moon_layer_hits": [
+  "VIIRS_NOAA20_GapFilled_BRDF_Corrected_DayNightBand_Radiance",
+  "VIIRS_SNPP_GapFilled_BRDF_Corrected_DayNightBand_Radiance"
+ ]
+}

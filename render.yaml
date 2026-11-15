@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: compass
+    runtime: docker
+    plan: free
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: DATA_DIR
+        value: /app/data
+      - key: PUBLIC_DATA_URL
+        value: /data
+      - key: MODEL_VERSION_PREFIX
+        value: models/

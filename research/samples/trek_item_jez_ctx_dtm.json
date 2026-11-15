@@ -1,0 +1,35 @@
+{
+  "responseHeader":{
+    "status":0,
+    "QTime":7,
+    "params":{
+      "q":"productLabel:JEZ_ctx_B_soc_008_DTM_MOLAtopography_DeltaGeoid_20m_Eqc_latTs0_lon0",
+      "indent":"on",
+      "sort":"sortPriority desc,itemType desc, resolution asc,title asc",
+      "version":"2.2",
+      "wt":"json"}},
+  "response":{"numFound":1,"start":0,"docs":[
+      {
+        "item_DBID":"295941",
+        "item_UUID":"2066cc17-9f17-4c2b-b544-619b74c2302b",
+        "productLabel":"JEZ_ctx_B_soc_008_DTM_MOLAtopography_DeltaGeoid_20m_Eqc_latTs0_lon0",
+        "title":"MRO CTX, Jezero DEM, Controlled",
+        "fileSize":[9675294],
+        "productCat1":"Topography",
+        "productCat2":"DEM",
+        "mission":"Mars Reconnaissance Orbiter",
+        "trekProjection":"urn:ogc:def:crs:EPSG::104905",
+        "projection":"PROJCS[\"Equirectangular Mars 2000 Sphere IAU\",GEOGCS[\"GCS_Mars_2000_Sphere\",DATUM[\"Mars_2000_Sphere\",SPHEROID[\"Mars_2000_Sphere_IAU\",3396190,0]],PRIMEM[\"Reference_Meridian\",0],UNIT[\"degree\",0.0174532925199433]],PROJECTION[\"Equirectangular\"],PARAMETER[\"latitude_of_origin\",0],PARAMETER[\"central_meridian\",0],PARAMETER[\"standard_parallel_1\",0],PARAMETER[\"false_easting\",0],PARAMETER[\"false_northing\",0],UNIT[\"metre\",1,AUTHORITY[\"EPSG\",\"9001\"]]]",
+        "data_created_date":"2020-08-03T21:19:28Z",
+        "description":"The Mars 2020 rover will explore Jezero crater, Mars to investigate an ancient delta for evidence of past microbial life and to better understand the geologic history of the region. The landing system onboard Mars 2020 will use technology developed at the Jet Propulsion Laboratory (JPL) called Terrain Relative Navigation (TRN), which will enable the spacecraft to autonomously avoid hazards (e.g., rock fields, crater rims) that exceed the safety requirements of the landing system. This capability allows small-scale hazards to be present in the landing ellipse, providing greater flexibility in selecting a landing location. In support of TRN, the USGS Astrogeology Science Center has generated and delivered the Lander Vision System (LVS) map generated from three Context Camera (CTX) orthorectified images that will be onboard the spacecraft and will be considered the truth dataset that TRN will use to orient itself relative to the surface during Entry, Decent, and Landing.",
+        "itemType":"product",
+        "resolution":3.37E-4,
+        "isContainer":false,
+        "searchable":true,
+        "coverage":"Regional",
+        "shape":"POLYGON((77.1604655 18.7211945,77.1604655 18.2110274,77.6989752 18.2110274,77.6989752 18.7211945,77.1604655 18.7211945))",
+        "trekBbox":"77.1604655,18.2110274,77.6989752,18.7211945",
+        "bbox":"77.1604655,18.2110274,77.6989752,18.7211945",
+        "instrument":"CTX",
+        "_version_":1674040646427475968}]
+  }}
